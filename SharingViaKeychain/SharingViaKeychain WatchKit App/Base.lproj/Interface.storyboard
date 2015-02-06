@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6750" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="SharingViaKeychain_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="8Gi-HT-kap">
+                            <items>
+                                <label alignment="left" text="Username:" id="w1u-fD-d3n">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                                <label alignment="left" text="Label" numberOfLines="0" id="Gzd-4V-qh8"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" id="PAf-qL-sDd">
+                            <items>
+                                <label alignment="left" text="Password:" id="COn-sq-BXn">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                                <label alignment="left" text="Label" numberOfLines="0" id="aaJ-QU-8qO"/>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="1" green="0.37853327435176554" blue="0.38099082093806236" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="passwordLabel" destination="aaJ-QU-8qO" id="mYI-FQ-jXp"/>
+                        <outlet property="usernameLabel" destination="Gzd-4V-qh8" id="PMD-Ti-2mm"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+    </scenes>
+</document>

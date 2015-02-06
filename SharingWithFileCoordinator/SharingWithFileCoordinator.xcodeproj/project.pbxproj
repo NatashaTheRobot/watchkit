@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA696A851A82921300E81513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA696A841A82921300E81513 /* AppDelegate.swift */; };
+		FA696A8A1A82921300E81513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA696A881A82921300E81513 /* Main.storyboard */; };
+		FA696A8C1A82921300E81513 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA696A8B1A82921300E81513 /* Images.xcassets */; };
+		FA696A8F1A82921300E81513 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA696A8D1A82921300E81513 /* LaunchScreen.xib */; };
+		FA696A9B1A82921300E81513 /* SharingWithFileCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA696A9A1A82921300E81513 /* SharingWithFileCoordinatorTests.swift */; };
+		FA696AAD1A82BD5F00E81513 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA696AAC1A82BD5F00E81513 /* InterfaceController.swift */; };
+		FA696AAF1A82BD5F00E81513 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA696AAE1A82BD5F00E81513 /* Images.xcassets */; };
+		FA696AB31A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FA696AB21A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit App.app */; };
+		FA696ABB1A82BD5F00E81513 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA696AB91A82BD5F00E81513 /* Interface.storyboard */; };
+		FA696ABD1A82BD5F00E81513 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA696ABC1A82BD5F00E81513 /* Images.xcassets */; };
+		FA696AC01A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FA696AA81A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA696ACB1A82C0A900E81513 /* TodoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA696ACA1A82C0A900E81513 /* TodoListTableViewController.swift */; };
+		FA696ACD1A82C0E000E81513 /* InputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA696ACC1A82C0E000E81513 /* InputTableViewCell.swift */; };
+		FA696ACF1A82D30800E81513 /* TodoTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA696ACE1A82D30800E81513 /* TodoTableRowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA696A951A82921300E81513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA696A771A82921300E81513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA696A7E1A82921300E81513;
+			remoteInfo = SharingWithFileCoordinator;
+		};
+		FA696AB41A82BD5F00E81513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA696A771A82921300E81513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA696AB11A82BD5F00E81513;
+			remoteInfo = "SharingWithFileCoordinator WatchKit App";
+		};
+		FA696ABE1A82BD5F00E81513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA696A771A82921300E81513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA696AA71A82BD5F00E81513;
+			remoteInfo = "SharingWithFileCoordinator WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA696AC71A82BD5F00E81513 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA696AC01A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA696A7F1A82921300E81513 /* SharingWithFileCoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharingWithFileCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA696A831A82921300E81513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA696A841A82921300E81513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA696A891A82921300E81513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA696A8B1A82921300E81513 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA696A8E1A82921300E81513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA696A941A82921300E81513 /* SharingWithFileCoordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharingWithFileCoordinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA696A991A82921300E81513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA696A9A1A82921300E81513 /* SharingWithFileCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingWithFileCoordinatorTests.swift; sourceTree = "<group>"; };
+		FA696AA81A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SharingWithFileCoordinator WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA696AAB1A82BD5F00E81513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA696AAC1A82BD5F00E81513 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FA696AAE1A82BD5F00E81513 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA696AB21A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SharingWithFileCoordinator WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA696AB81A82BD5F00E81513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA696ABA1A82BD5F00E81513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FA696ABC1A82BD5F00E81513 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA696AC81A82BD6B00E81513 /* SharingWithFileCoordinator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SharingWithFileCoordinator.entitlements; sourceTree = "<group>"; };
+		FA696AC91A82BD9300E81513 /* SharingWithFileCoordinator WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SharingWithFileCoordinator WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		FA696ACA1A82C0A900E81513 /* TodoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListTableViewController.swift; sourceTree = "<group>"; };
+		FA696ACC1A82C0E000E81513 /* InputTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTableViewCell.swift; sourceTree = "<group>"; };
+		FA696ACE1A82D30800E81513 /* TodoTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableRowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA696A7C1A82921300E81513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA696A911A82921300E81513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA696AA51A82BD5F00E81513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA696A761A82921300E81513 = {
+			isa = PBXGroup;
+			children = (
+				FA696A811A82921300E81513 /* SharingWithFileCoordinator */,
+				FA696A971A82921300E81513 /* SharingWithFileCoordinatorTests */,
+				FA696AA91A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit Extension */,
+				FA696AB61A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit App */,
+				FA696A801A82921300E81513 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA696A801A82921300E81513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA696A7F1A82921300E81513 /* SharingWithFileCoordinator.app */,
+				FA696A941A82921300E81513 /* SharingWithFileCoordinatorTests.xctest */,
+				FA696AA81A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit Extension.appex */,
+				FA696AB21A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA696A811A82921300E81513 /* SharingWithFileCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				FA696AC81A82BD6B00E81513 /* SharingWithFileCoordinator.entitlements */,
+				FA696A841A82921300E81513 /* AppDelegate.swift */,
+				FA696A881A82921300E81513 /* Main.storyboard */,
+				FA696ACA1A82C0A900E81513 /* TodoListTableViewController.swift */,
+				FA696ACC1A82C0E000E81513 /* InputTableViewCell.swift */,
+				FA696A8B1A82921300E81513 /* Images.xcassets */,
+				FA696A8D1A82921300E81513 /* LaunchScreen.xib */,
+				FA696A821A82921300E81513 /* Supporting Files */,
+			);
+			path = SharingWithFileCoordinator;
+			sourceTree = "<group>";
+		};
+		FA696A821A82921300E81513 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA696A831A82921300E81513 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA696A971A82921300E81513 /* SharingWithFileCoordinatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA696A9A1A82921300E81513 /* SharingWithFileCoordinatorTests.swift */,
+				FA696A981A82921300E81513 /* Supporting Files */,
+			);
+			path = SharingWithFileCoordinatorTests;
+			sourceTree = "<group>";
+		};
+		FA696A981A82921300E81513 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA696A991A82921300E81513 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA696AA91A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA696AC91A82BD9300E81513 /* SharingWithFileCoordinator WatchKit Extension.entitlements */,
+				FA696AAC1A82BD5F00E81513 /* InterfaceController.swift */,
+				FA696ACE1A82D30800E81513 /* TodoTableRowController.swift */,
+				FA696AAE1A82BD5F00E81513 /* Images.xcassets */,
+				FA696AAA1A82BD5F00E81513 /* Supporting Files */,
+			);
+			path = "SharingWithFileCoordinator WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FA696AAA1A82BD5F00E81513 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA696AAB1A82BD5F00E81513 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA696AB61A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FA696AB91A82BD5F00E81513 /* Interface.storyboard */,
+				FA696ABC1A82BD5F00E81513 /* Images.xcassets */,
+				FA696AB71A82BD5F00E81513 /* Supporting Files */,
+			);
+			path = "SharingWithFileCoordinator WatchKit App";
+			sourceTree = "<group>";
+		};
+		FA696AB71A82BD5F00E81513 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA696AB81A82BD5F00E81513 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA696A7E1A82921300E81513 /* SharingWithFileCoordinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA696A9E1A82921300E81513 /* Build configuration list for PBXNativeTarget "SharingWithFileCoordinator" */;
+			buildPhases = (
+				FA696A7B1A82921300E81513 /* Sources */,
+				FA696A7C1A82921300E81513 /* Frameworks */,
+				FA696A7D1A82921300E81513 /* Resources */,
+				FA696AC71A82BD5F00E81513 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA696ABF1A82BD5F00E81513 /* PBXTargetDependency */,
+			);
+			name = SharingWithFileCoordinator;
+			productName = SharingWithFileCoordinator;
+			productReference = FA696A7F1A82921300E81513 /* SharingWithFileCoordinator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA696A931A82921300E81513 /* SharingWithFileCoordinatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA696AA11A82921300E81513 /* Build configuration list for PBXNativeTarget "SharingWithFileCoordinatorTests" */;
+			buildPhases = (
+				FA696A901A82921300E81513 /* Sources */,
+				FA696A911A82921300E81513 /* Frameworks */,
+				FA696A921A82921300E81513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA696A961A82921300E81513 /* PBXTargetDependency */,
+			);
+			name = SharingWithFileCoordinatorTests;
+			productName = SharingWithFileCoordinatorTests;
+			productReference = FA696A941A82921300E81513 /* SharingWithFileCoordinatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA696AA71A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA696AC41A82BD5F00E81513 /* Build configuration list for PBXNativeTarget "SharingWithFileCoordinator WatchKit Extension" */;
+			buildPhases = (
+				FA696AA41A82BD5F00E81513 /* Sources */,
+				FA696AA51A82BD5F00E81513 /* Frameworks */,
+				FA696AA61A82BD5F00E81513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA696AB51A82BD5F00E81513 /* PBXTargetDependency */,
+			);
+			name = "SharingWithFileCoordinator WatchKit Extension";
+			productName = "SharingWithFileCoordinator WatchKit Extension";
+			productReference = FA696AA81A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FA696AB11A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA696AC11A82BD5F00E81513 /* Build configuration list for PBXNativeTarget "SharingWithFileCoordinator WatchKit App" */;
+			buildPhases = (
+				FA696AB01A82BD5F00E81513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SharingWithFileCoordinator WatchKit App";
+			productName = "SharingWithFileCoordinator WatchKit App";
+			productReference = FA696AB21A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA696A771A82921300E81513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = NatashaTheRobot;
+				TargetAttributes = {
+					FA696A7E1A82921300E81513 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = W6GNU64U6Q;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					FA696A931A82921300E81513 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FA696A7E1A82921300E81513;
+					};
+					FA696AA71A82BD5F00E81513 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = W6GNU64U6Q;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					FA696AB11A82BD5F00E81513 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FA696A7A1A82921300E81513 /* Build configuration list for PBXProject "SharingWithFileCoordinator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA696A761A82921300E81513;
+			productRefGroup = FA696A801A82921300E81513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA696A7E1A82921300E81513 /* SharingWithFileCoordinator */,
+				FA696A931A82921300E81513 /* SharingWithFileCoordinatorTests */,
+				FA696AA71A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit Extension */,
+				FA696AB11A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA696A7D1A82921300E81513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA696A8A1A82921300E81513 /* Main.storyboard in Resources */,
+				FA696A8F1A82921300E81513 /* LaunchScreen.xib in Resources */,
+				FA696A8C1A82921300E81513 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA696A921A82921300E81513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA696AA61A82BD5F00E81513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA696AB31A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit App.app in Resources */,
+				FA696AAF1A82BD5F00E81513 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA696AB01A82BD5F00E81513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA696ABB1A82BD5F00E81513 /* Interface.storyboard in Resources */,
+				FA696ABD1A82BD5F00E81513 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA696A7B1A82921300E81513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA696A851A82921300E81513 /* AppDelegate.swift in Sources */,
+				FA696ACD1A82C0E000E81513 /* InputTableViewCell.swift in Sources */,
+				FA696ACB1A82C0A900E81513 /* TodoListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA696A901A82921300E81513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA696A9B1A82921300E81513 /* SharingWithFileCoordinatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA696AA41A82BD5F00E81513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA696AAD1A82BD5F00E81513 /* InterfaceController.swift in Sources */,
+				FA696ACF1A82D30800E81513 /* TodoTableRowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA696A961A82921300E81513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA696A7E1A82921300E81513 /* SharingWithFileCoordinator */;
+			targetProxy = FA696A951A82921300E81513 /* PBXContainerItemProxy */;
+		};
+		FA696AB51A82BD5F00E81513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA696AB11A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit App */;
+			targetProxy = FA696AB41A82BD5F00E81513 /* PBXContainerItemProxy */;
+		};
+		FA696ABF1A82BD5F00E81513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA696AA71A82BD5F00E81513 /* SharingWithFileCoordinator WatchKit Extension */;
+			targetProxy = FA696ABE1A82BD5F00E81513 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA696A881A82921300E81513 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA696A891A82921300E81513 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA696A8D1A82921300E81513 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA696A8E1A82921300E81513 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FA696AB91A82BD5F00E81513 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA696ABA1A82BD5F00E81513 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA696A9C1A82921300E81513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA696A9D1A82921300E81513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA696A9F1A82921300E81513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SharingWithFileCoordinator/SharingWithFileCoordinator.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SharingWithFileCoordinator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FA696AA01A82921300E81513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SharingWithFileCoordinator/SharingWithFileCoordinator.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SharingWithFileCoordinator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FA696AA21A82921300E81513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharingWithFileCoordinatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharingWithFileCoordinator.app/SharingWithFileCoordinator";
+			};
+			name = Debug;
+		};
+		FA696AA31A82921300E81513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharingWithFileCoordinatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharingWithFileCoordinator.app/SharingWithFileCoordinator";
+			};
+			name = Release;
+		};
+		FA696AC21A82BD5F00E81513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SharingWithFileCoordinator_WatchKit_Extension;
+				INFOPLIST_FILE = "SharingWithFileCoordinator WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FA696AC31A82BD5F00E81513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SharingWithFileCoordinator_WatchKit_Extension;
+				INFOPLIST_FILE = "SharingWithFileCoordinator WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FA696AC51A82BD5F00E81513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SharingWithFileCoordinator WatchKit Extension/SharingWithFileCoordinator WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SharingWithFileCoordinator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FA696AC61A82BD5F00E81513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SharingWithFileCoordinator WatchKit Extension/SharingWithFileCoordinator WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SharingWithFileCoordinator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA696A7A1A82921300E81513 /* Build configuration list for PBXProject "SharingWithFileCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA696A9C1A82921300E81513 /* Debug */,
+				FA696A9D1A82921300E81513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA696A9E1A82921300E81513 /* Build configuration list for PBXNativeTarget "SharingWithFileCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA696A9F1A82921300E81513 /* Debug */,
+				FA696AA01A82921300E81513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA696AA11A82921300E81513 /* Build configuration list for PBXNativeTarget "SharingWithFileCoordinatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA696AA21A82921300E81513 /* Debug */,
+				FA696AA31A82921300E81513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA696AC11A82BD5F00E81513 /* Build configuration list for PBXNativeTarget "SharingWithFileCoordinator WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA696AC21A82BD5F00E81513 /* Debug */,
+				FA696AC31A82BD5F00E81513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA696AC41A82BD5F00E81513 /* Build configuration list for PBXNativeTarget "SharingWithFileCoordinator WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA696AC51A82BD5F00E81513 /* Debug */,
+				FA696AC61A82BD5F00E81513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA696A771A82921300E81513 /* Project object */;
+}
